@@ -1,7 +1,7 @@
 module.exports = function(app, db) {
   app.post('/consumption', (req, res) => {
     const consumption = {
-      water_left: req.body.water_left,
+      water_left: 17,
       date: new Date(),
       poured: req.body.poured,
     };
